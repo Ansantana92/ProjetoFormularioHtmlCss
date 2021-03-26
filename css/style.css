@@ -1,0 +1,50 @@
+.container_12{
+	height: 1200px;
+	margin-top: 50px;
+}
+body{
+	background:url(../img/futebolfundo.jpg);
+	font-family: 'Poppins', sans-serif;
+}	
+.bloco{
+	text-align: center;
+	background:rgb(60,15,50,0.5);
+	height: 180px;
+	border-top-right-radius:10px;
+	border-top-left-radius:10px;
+}
+
+header h1{
+	font-size: 35px;
+	padding-top: 30px;
+	letter-spacing: -1px;
+	color:	white;
+	padding-top: 10px;
+}
+
+header p{
+	font-size: 14px;
+	font-style: italic;
+	color:white;
+	letter-spacing: 2px;
+	padding-top: 10px;
+}
+.formulario{
+	text-align: center;
+	background:rgb(10,10,44,0.7);
+	height:1000px;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+}
+.formulario li{
+	color:white;
+}
+#name,#email,#age{
+	width: 300px;
+}
+#textoarea{
+	padding-bottom: 50px;
+}
+label{
+	
+}

@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Site Formulario</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="../ProjetoFormulario/css/style.css"/>
+		<link rel="stylesheet" href="../ProjetoFormulario/css/960_12_col.css">
+		<link rel="stylesheet" href="../ProjetoFormulario/css/reset.css">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<div class="container_12">
+			<div class="bloco grid_12">
+				<header>
+					<h1>Quais são seus<br>gostos futebolisticos?</h1>
+						<p>Obrigado por tirar um tempo<br>para responder nosso questionário</p>
+				</header>
+			</div>		
+			<div class="formulario grid_12">
+				<div class="form1 grid_6 push_3">
+				<form action="" method="get">
+					<ul>
+						<br>
+						<li>
+							<label for="name">Nome</label><br>
+							<input id="name" type="text" placeholder="Digite seu nome">
+						</li>
+						<li>
+							<label for="email">Email</label><br>
+							<input id="email" type="text" placeholder="Digite seu email">
+						</li>
+						<li>
+							<label for="age">Idade</label><br>
+							<input id="age" type="number" placeholder="Qual sua idade">
+						</li>
+						<li>	
+							<br>
+							<label for="">Qual dos jogadores abaixo é seu preferido?</label>
+							<br>
+							<input type="radio" name="jogadores"/>Cristiano Ronaldo<br> 
+							<input type="radio" name="jogadores"/>Messi<br> 
+							<input type="radio" name="jogadores"/>Neymar<br>
+							<input type="radio" name="jogadores"/>Lewandovski<br> 
+							<input type="radio" name="jogadores"/>Halland<br>
+							<input type="radio" name="jogadores"/>Mbappé<br> 
+						</li>
+						<li><br>
+							<label for="posicao">Qual posição você joga?</label><br>
+							<select name="posicao" id="posicao">
+								<option value=""></option>
+								<option value="goleiro">Goleiro</option>
+								<option value="zagueiro">Zagueiro</option>
+								<option value="meiodecampo">Meio de Campo</option>
+								<option value="atacante">Atacante</option>
+							</select>
+						</li>
+						<br>
+						<li>
+							<label for="">Qual dos times abaixo você jogaria?</label>
+							<br>
+							<input type="checkbox" name="times"/>Real Madrid<br> 
+							<input type="checkbox" name="times"/>Barcelona<br> 
+							<input type="checkbox" name="times"/>Bayern Munchen<br>
+							<input type="checkbox" name="times"/>Liverpool<br> 
+							<input type="checkbox" name="times"/>Manchester United<br>
+							<input type="checkbox" name="times"/>Bahia<br> 
+						</li>
+						
+						<br>
+						<li>
+							<p>Deixe uma sugestão:</p>
+							<textarea id="textoarea"name="sugestao" id="" cols="50" rows="10"></textarea>
+							<br>
+							<input type="submit" value="Enviar">
+						</li>
+					</ul>
+				</form>
+				</div>	
+			</div>	
+			
+			
+		</div>
+	
+	</body>
+
+
+</html>
